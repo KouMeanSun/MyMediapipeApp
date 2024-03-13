@@ -3,3 +3,7 @@
 .vscode
 .vsconfig
 *.sln
+
+dll_use_example/MediapipePackageDllTest/bin/
+dll_use_example/MediapipePackageDllTest/intermediatefile/
+

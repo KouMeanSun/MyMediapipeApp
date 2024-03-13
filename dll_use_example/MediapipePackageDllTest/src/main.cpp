@@ -330,7 +330,7 @@ void HolisticTrackingDllTest()
 		delete[] pdetect_result;
 
 		//显示摄像头读取到的图像
-		imshow("打开摄像头", frame);
+		//imshow("打开摄像头", frame);
 		//等待1毫秒，如果按键则退出循环
 		if (cv::waitKey(1) >= 0)
 		{
@@ -362,9 +362,10 @@ int main()
 {
 	//HandTrackingDllTest();
 
-	HolisticTrackingDllTest();
+	//HolisticTrackingDllTest();
 
-	getchar();
+	//getchar();
+	std::cout << "hello world" << std::endl;
 
 	return 0;
 }
